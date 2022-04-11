@@ -552,7 +552,7 @@ class GoogleDriveHelper:
                     nxt_page += 1
             telegraph.edit_page(
                 path = self.path[prev_page],
-                title = 'Mirror Bot Search',
+                title = 'Ocxmirror Search',
                 content=content
             )
         return
